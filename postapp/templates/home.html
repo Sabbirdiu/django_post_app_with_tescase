@@ -1,0 +1,12 @@
+
+{% extends 'base.html' %}
+{% block title %}Home &amp; that{% endblock %}
+{% block content %}
+<div>
+  
+    {% for post in all_post_list %}
+     <h1>  {{post.title}} </h1>
+     <p> {{ post.text  }}  </p>
+    {% endfor %}
+</div>
+{% endblock %}
