@@ -1,0 +1,1 @@
+# django_post_app_with_tescase
